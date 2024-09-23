@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Ruta del archivo Excel
-file_path = r"C:\Users\control gestion\JV\10_Proyectos\01_VSC\08 Streamlit\PQ_Espejo_Datos_Macro.xlsx"
+file_path = r"PQ_Espejo_Datos_Macro.xlsx"
 
 # Cargar el archivo Excel
 df = pd.read_excel(file_path, sheet_name='PQ_Espejo_Datos_Macro')
@@ -66,4 +66,4 @@ plt.tight_layout()
 # Mostrar gráfico en Streamlit
 st.pyplot(fig)
 
-# Estando la terminal ubicada en la carpeta del proyecto, Activar la aplicacion:   streamlit run app_Planer.py
+# Estando la terminal ubicada en la carpeta del proyecto, Activar la aplicacion:   streamlit run 02_informe_estado_de_proyecto.py
